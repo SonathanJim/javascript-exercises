@@ -7,15 +7,17 @@ const sumAll = function(num1,num2) {
         if (num1>num2) {
             let finalSum = 0
             for (let i = +num2; i <= +num1; i++) {
-            finalSum += i;
+                finalSum += i;
             }   
             return finalSum;
-        } else {let finalSum = 0
+        } else {
+            let finalSum = 0
             for (let i = +num1; i <= +num2; i++) {
                 finalSum += i;
             }
         return finalSum;
-    }};
+        }
+    };
     return 'ERROR';
 };
 
